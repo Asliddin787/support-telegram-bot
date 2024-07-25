@@ -3,8 +3,8 @@ from telegram import Update, Bot
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters, ContextTypes
 
 # Bot tokeningizni kiriting
-TOKEN = '7360860001:AAFbi5rv064Za5lPDjOTnqfXs7mArRDSRJs'
-ADMIN_CHAT_ID = '1070907281'  # Adminning Telegram chat ID sini kiriting
+TOKEN = 'YOUR_TOKEN'
+ADMIN_CHAT_ID = 'YOUR_ADMIN_CHAT_ID'  # Adminning Telegram chat ID sini kiriting
 
 # /start komandasini aniqlash
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
